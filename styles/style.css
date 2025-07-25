@@ -52,3 +52,47 @@ a.shop , a.about{
     color: #8987A1;
     
 }
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 30px;
+  flex-wrap: wrap;
+}
+
+.banner-content {
+  flex: 1;
+  padding: 10px;
+  text-align: left;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-content h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.orange {
+  color: #E95A08;
+}
+
+.banner-content p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.banner-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-image img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  display: block;
+}
